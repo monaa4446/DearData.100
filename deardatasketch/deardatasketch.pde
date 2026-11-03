@@ -90,7 +90,7 @@ float getSize(String sizeWord) { // this is a method, wprd goes in nimber comes 
     rect(-2, -15, 4, 32);// rectangle for body
   }
     
-  void drawBow() {
+  void drawBow () {
     triangle(0,0,-25,-15,-25,15);//left loop
     triangle(0,0,25,-15,25,15);//right loop
     ellipse(0,0,10,10);//middle circle
