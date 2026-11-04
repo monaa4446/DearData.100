@@ -47,7 +47,7 @@ void draw() {
     i = i + 1;//adds 1 to the counter
   }
 }
-float getSize(String sizeWord) { // this is a method, wprd goes in nimber comes out
+float getSize(String sizeWord) { // this is a method that returns a value, word goes in number comes out
   String word = sizeWord.trim().toLowerCase();// needs a number to work on first, then removes spaces and cleans any spelling mistakes 
   
   //each if asks if word is small medium or large and return hands back matching number of pixels wide and tall 
